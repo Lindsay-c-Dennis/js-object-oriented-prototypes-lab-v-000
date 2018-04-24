@@ -4,15 +4,16 @@ function BoardMember(name, homeState, training){
    this.training = training;
 }
 
-function BoardMember.prototype
-//   this.veto = function(){
-//     return 'No, I must disagree'
-//   }
-//   this.approve = function(){
-//     return 'You can do that!'
-//   }
-//   this.doCharity = function(){
-//     return "I like to help people."
+function BoardMember.prototype.veto = function() {
+     return 'No, I must disagree';
+   }
+   
+function BoardMember.prototype.approve =function() {
+     return 'You can do that!';
+  }
+  
+function BoardMember.prototype.doCharity = function() {
+     return "I like to help people."
 //   }
 //
 //   this.releasePressStatement = function(){
